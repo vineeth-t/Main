@@ -2,11 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <nav class='navigation-bar' >
+        <div class='list-parent-left' id='symbol'>
+            <a class='li-link'href='#'> <h3>Chikku<span style='color:rgb(10, 177, 10)'>Ui</span></h3> </a>  
+        </div>
+        <div class='list-parent-right' id='modal'>
+            <a  href="javascript:void(0);" class="li-icon" onclick="modelFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+              <a class='li-link'href='#'> Home</a>
+              <a class='li-link'href='#'>Documentation</a>
+              <a class='li-link'href='#'>Github</a>
+              <!-- <a class='li-link'href='#'>V0.1</a> -->
+        </div>
+        <!-- <div class='list-parent-left'>
+            <ul>
+                <li class='li-child' ><a class='li-link'href='#'><h3>Chikku<span style='color:rgb(10, 177, 10)'>Ui</span></h3> </a></li>
+            </ul>
+        </div>
+        <div class='list-parent-right' id='modal'>
+            <ul >
+                <li class='li-child' id='modal'><a  href="javascript:void(0);" class="li-icon" onclick="modelFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a></li>
+                   <li class='li-child'>
+                    <a class='li-link'href='#'> Home</a>
+                   </li>
+                   <li class='li-child'><a class='li-link'href='#'>Documentation</a></li>
+                   <li class='li-child'><a class='li-link'href='#'>github repo</a></li>
+                   <li class='li-child'><a class='li-link'href='#'>V0.1</a></li>
+                  
+               </ul>
+        </div> -->
+    </nav>
+<div class='center-div'>
+
+   <h2 style='text-align: center;margin: 1rem;'>Plug & Play <span style='color:rgb(10, 177, 10)'>CSS</span></h2>
+   <p style='font-size: large;'>Css is very powerful tool in Web Development.This is my version of CSS which is easy to Plug and Play for any kind of projects.</p><br/>
+   <div style='text-align: center'> <button class='btn btn-primary'>Get started!</button></div>
+  
+</div>
+
+    <script>
+        function modelFunction(){
+         var x=document.getElementById('modal');
+         var y=document.getElementById('symbol');
+         console.log(x)
+         if(x.className==='list-parent-right'){
+          x.className+="modalMobile";
+          y.className+="remove";
+          console.log(x,y)
+         } else{
+          x.className='list-parent-right';
+          y.className='list-parent-left'
+          console.log(x)
+         }
+        }
+      </script>
 </body>
+
 </html>
