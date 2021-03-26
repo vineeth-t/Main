@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import "/components/Header/header.css" ;
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 *{
@@ -6,7 +7,9 @@
     box-sizing: border-box;
 }
 body{
-    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+   
+    font-weight: 400;
     font-size: large;
 }
 :root{
@@ -16,21 +19,11 @@ body{
 }
 
 .center-div{
+    
     max-width: 70%;
     margin: 2rem 15% 2rem 15%;
-    font-weight: 400;
+    font-weight: 300;
 }
-/* .btn{
-  
-    padding: 0.5rem;
-    border: 0.5rem;
-}
-.btn-primary{
-    outline:none;
-   background-color:var(--primary-btn-color);
-   color:var(--primary-color);
-   font-weight: 600;
-} */
 .btn-link{
     border-radius: 2rem;
     padding: 0.5rem;
