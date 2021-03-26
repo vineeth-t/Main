@@ -1,0 +1,68 @@
+.bdg-av{
+    display:flex;
+    flex-direction: row;
+}
+:root{
+    --online:rgb(49, 218, 49);
+    --offline:yellow;
+    --onCall:red;
+}
+.badge-on-avtar{
+    position: relative;
+    margin: 1rem;
+}
+.avtar{
+    cursor: pointer;
+    border-radius: 50%; 
+    width: 75px;
+}
+.badge{
+    position: absolute;
+    top:3.5rem;
+    left:3.5rem;
+    width:0.75rem;
+    height: 0.75rem;
+    border-radius: 50%; 
+    border: 3px solid white;
+
+
+}
+.badgeStatus{
+    display:none;
+}
+.online{
+    background-color: var(--online)
+}
+.offline{
+    background-color: var(--offline)
+}
+.onCall{
+    background-color: var(--onCall)
+}
+.badge-on-avtar:hover > .badgeStatus {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+}
+.badge-on-icon{
+    position:relative;
+    margin: 1rem;
+ 
+}
+.cart{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width:1.25rem;
+    height: 1.25rem;
+    top: 0rem;
+    left: 1.2rem; 
+    border-radius: 50%;
+    background-color: var(--online);
+}
+.wishlist{
+    background-color: rgb(209, 86, 86);
+}
+.notification{
+    background-color:rgb(52, 139, 221)
+}
