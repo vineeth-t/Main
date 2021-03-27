@@ -1,0 +1,29 @@
+.alert-area{
+   align-items: center;
+  
+   margin-left: 206px;
+
+}
+.alert{
+
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin: 1rem;
+    text-align: center;
+    width: 15rem;
+    border-radius: 2rem;
+}
+.error{
+    color: #f50057;
+    border-color: #f50057;
+    
+}
+.Success{
+    color:green;
+    border-color:green;
+
+}
+.Warning{
+    color:#fbbf24;
+    border-color: #fbbf24;
+}
