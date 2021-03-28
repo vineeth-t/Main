@@ -27,3 +27,10 @@
     color:#fbbf24;
     border-color: #fbbf24;
 }
+@media screen and (max-width: 600px){
+
+    .alert-area{
+       margin-left: 50px;
+    }
+    
+}

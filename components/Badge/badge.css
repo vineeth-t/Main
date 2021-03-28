@@ -23,9 +23,7 @@
     width:0.75rem;
     height: 0.75rem;
     border-radius: 50%; 
-    border: 3px solid white;
-
-
+    border: 3px solid white
 }
 .badgeStatus{
     display:none;
@@ -65,4 +63,7 @@
 }
 .notification{
     background-color:rgb(52, 139, 221)
+}
+@media screen and (max-width: 600px){
+    
 }

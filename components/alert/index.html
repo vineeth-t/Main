@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/components/sideNav/sideNav.css">
+    
     <link rel="stylesheet" href="alert.css">
+    <link rel="stylesheet" href="/components/sideNav/sideNav.css">
     <title>Document</title>
 </head>
 <body>
@@ -24,23 +25,30 @@
             </div>
     </nav>
     <header class='header' >
-        <div class='menu-list'>
+        <div class='menu-list' id='menu-items'>
             <a class="li-link link-active" href='/components/alert/index.html'>Alert</a>
             <a class="li-link" href='/components//Badge/index.html'>Badge</a>
             <a class="li-link " href='/components/Buttons/index.html'>Button</a>
             <a class="li-link " href='/components/Card/index.html'>Cards</a>
             <a class="li-link" href='#'>Lists</a>
+            <button class='Float-btn Floating-btn-x' onclick="floatingOff()">X</button> 
         </div>
         <div class='component-content'>
-            <h2>Alert</h2>
-            <p class='content-txt'>Alert helps in providing important messages to user like error,success,warning etc.,   </p>
-            <hr><br/>
-            <h2>Alerts</h2>
-           <div class='alert-area'>
-            <div class='alert error'><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--mdi-light" width="20" height="20" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M11.5 3a9.5 9.5 0 1 1 0 19a9.5 9.5 0 0 1 0-19zm0 1a8.5 8.5 0 1 0 0 17a8.5 8.5 0 0 0 0-17zM11 17v-2h1v2h-1zm0-4V8h1v5h-1z" fill="currentColor"></path></svg> <span>Error! check your code</span></div>
-            <div class='alert Success'>Success! It's error free code</div>
-            <div class='alert Warning'>warning! suppress </div>
-               </div>
+            <button class='Float-btn Floating-btn' onclick="floatingAction()"><></button>
+            <div>
+                    <h2>Alert</h2>
+                    <p class='content-txt'>Alert helps in providing important messages to user like error,success,warning etc.,   </p>
+                    <hr><br/>
+            </div>
+            <div>
+                    <h2>Alerts</h2>
+                <div class='alert-area'>
+                    <div class='alert error'><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--mdi-light" width="20" height="20" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M11.5 3a9.5 9.5 0 1 1 0 19a9.5 9.5 0 0 1 0-19zm0 1a8.5 8.5 0 1 0 0 17a8.5 8.5 0 0 0 0-17zM11 17v-2h1v2h-1zm0-4V8h1v5h-1z" fill="currentColor"></path></svg> <span>Error! check your code</span></div>
+                    <div class='alert Success'>Success! It's error free code</div>
+                    <div class='alert Warning'>warning! suppress </div>
+                    </div>
+            </div>
 </header>
+<script type="text/javascript" src="/components/Header/header.js"></script>
 </body>
 </html>

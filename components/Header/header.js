@@ -12,3 +12,11 @@ function modelFunction(){
      console.log(x)
     }
    }
+function floatingAction(){
+       document.getElementById('menu-items').style.display='flex';
+       
+   }
+   function floatingOff(){
+    document.getElementById('menu-items').style.display='none';
+    
+   }
