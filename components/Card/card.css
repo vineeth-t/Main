@@ -96,3 +96,16 @@
 .card-image{
     width: 8opx;
 }
+@media screen and (max-width: 600px){
+    .component-card{
+display: flex;
+flex-direction: column;
+
+    }
+    .x{
+        width:fit-content;
+    }
+    .card-content{
+ 
+    }
+}
