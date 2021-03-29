@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/components/sideNav/sideNav.css">
+    <link rel="stylesheet" href="list.css">
+    <title>List</title>
+</head>
+<body>
+    <nav class='navigation-bar' >
+        <div class='list-parent-left' id='symbol'>
+            <a class='li-link'href='../../index.html'> <h3>Chikku<span style='color:rgb(10, 177, 10)'>Ui</span></h3> </a>  
+        </div>
+        <div class='list-parent-right' id='modal'>
+            <a  href="javascript:void(0);" class="li-icon" onclick="modelFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+              <a class='li-link' href='../../index.html'> Home</a>
+              <a class='li-link' href='index.html'>Documentation</a>
+              <a class='li-link' target='_blank' href='https://github.com/vineeth-t/Main/tree/Devlopment'>Github</a>
+              <!-- <a class='li-link'href='#'>V0.1</a> -->
+        </div>
+        </nav>
+        <header class='header' >
+            <div class='menu-list' id='menu-items'>
+                <a class="li-link " href='/components/alert/index.html'>Alert</a>
+                <a class="li-link" href='/components//Badge/index.html'>Badge</a>
+                <a class="li-link " href='/components/Buttons/index.html'>Button</a>
+                <a class="li-link " href='/components/Card/index.html'>Cards</a>
+                <a class="li-link link-active" href='/components/List/index.html'>Lists</a>
+                <button class='Float-btn Floating-btn-x' onclick="floatingOff()">X</button> 
+            </div>
+            <div class='component-content'>
+                <button class='Float-btn Floating-btn' onclick="floatingAction()"><></button>
+                <div>
+                    <h3>List</h3>
+                    <p class='content-txt'>lists are used to display items in spaced & stacked manner </p>
+                    <hr><br/>
+                </div>
+                <div>
+                    <h3>Spaced list</h3>
+                    <p class='content-txt'>Spaced lists are used in navigation bar for better appearance and accessibilty </p>
+                    <ul class='list'>
+                        <li >Home </li>
+                        <li>Profile</li>
+                        <li>About</li>
+                        <li>Logout</li>
+                    </ul>
+                </div> <hr><br/>
+                <div>
+                    <h3>Stacked list</h3>
+                    <p class='content-txt'>Stacked lists are used in notification panel and also in displaying left/right navigation bar </p>
+                    <ul class='list stacked'>
+                        <li >Home </li>
+                        <li>Profile</li>
+                        <li>About</li>
+                        <li>Logout</li>
+                    </ul>
+                </div>
+    </header>
+    <script type="text/javascript" src="/components/Header/header.js"></script>
+</body>
+</html>
