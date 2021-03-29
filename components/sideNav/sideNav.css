@@ -83,11 +83,11 @@ background-color:white;
 }
 .Floating-btn{
     display: block;
-    position: absolute;
+    position: fixed;
     width:3rem;
     height:3rem;
-    bottom:-4rem;
-    right: 0rem;
+    bottom: 5rem;
+    right:1rem;
     border-radius: 50%;
     background-color:var(--primary-btn-color);
     border: none;
