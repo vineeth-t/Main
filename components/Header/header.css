@@ -64,6 +64,7 @@ body{
     .li-icon{
         display:block;
         float: right;
+        color: var(--primary-color);
         
     }
     .list-parent-rightmodalMobile{
