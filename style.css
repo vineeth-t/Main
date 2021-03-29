@@ -5,6 +5,7 @@
 @import "/components/Buttons/button.css";
 @import "/components/Card/card.css";
 @import "/components/sideNav/sideNav.css";
+@import"/components/List/index.html";
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 *{
     margin: 0;
