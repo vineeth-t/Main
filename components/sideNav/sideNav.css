@@ -3,6 +3,7 @@
 :root{
     --primary-color:black;  
     --primary-btn-color:rgb(10, 177, 10);
+    --background-modal-color:white;
 
 }
 .header{
@@ -62,7 +63,7 @@ left: 0;
 right: 0;
 bottom: 0;
 text-align: center;
-background-color:white;
+background-color:var( --background-modal-color);
 z-index: 2;
  padding-left: 0px;
   cursor: pointer;

@@ -1,5 +1,10 @@
 :root{
     --item-name-color:#535766;
+    --box-shadow-card:rgba(0, 0, 0, 0.24);
+    --discount:red;
+    --badge-background: rgb(124, 219, 80);
+   
+    --font-color:whitesmoke;
 }
 .component-card{
     display: flex;
@@ -7,7 +12,7 @@
 .card{
     position: relative;
     width:fit-content;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: var(--box-shadow-card) 0px 3px 8px;
     padding: 1rem;
     margin: 1rem;
     font-size:1rem;
@@ -53,22 +58,22 @@
     font-weight: 800;
 }
 .Item-discountPercentage{
-    color :red;
+    color :var( --discount);
 }
 .badge{
     font-size: 0.75rem;
     position: absolute;
     top:3rem;
     left:1rem;
-    background-color: rgb(124, 219, 80);
-    color:whitesmoke;
+    background-color:var(--badge-background);
+    color:var(  --font-color);
    
 }
 .badge::after{
     position: absolute;
     content:'';
-    border-color: rgb(124, 219, 80) transparent rgb(124, 219, 80)
-    rgb(124, 219, 80);
+    border-color: var(--badge-background) transparent var(--badge-background)
+    var(--badge-background);
    
      border-style: solid;
      border-width: 7px;
