@@ -1,0 +1,16 @@
+.text-area-autofocus{
+    resize: none;
+    margin:0 10rem 1rem 10rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+.asteric-color{
+    color:red;
+}
+@media screen and (max-width: 600px){
+    .text-area-autofocus{
+        margin:0 0 1rem 0;
+        font-size: 0.8rem;
+        padding: 0;
+    }
+}

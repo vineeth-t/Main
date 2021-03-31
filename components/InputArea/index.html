@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InputArea</title>
+    <link rel="stylesheet" href="/components/sideNav/sideNav.css">
+    <link rel="stylesheet" href="inputArea.css">
+</head>
+<body>
+    <nav class='navigation-bar' >
+        <div class='list-parent-left' id='symbol'>
+            <a class='li-link'href='../../index.html'> <h3>Chikku<span class='heading-color'>Ui</span></h3> </a>  
+        </div>
+        <div class='list-parent-right' id='modal'>
+            <a  href="javascript:void(0);" class="li-icon" onclick="modelFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+              <a class='li-link' href='../../index.html'> Home</a>
+              <a class='li-link' href='components/alert/index.html'>Documentation</a>
+              <a class='li-link' target='_blank' href='https://github.com/vineeth-t/Main/tree/Devlopment'>Github</a>
+             
+        </div>
+        </nav>
+    <header class='header' >
+        <div class='menu-list' id='menu-items'>
+            <a class="li-link" href='/components/Alert/index.html'>Alert</a>
+            <a class="li-link" href='/components/Avatar/index.html'>Avatar</a>
+            <a class="li-link" href='/components/Badge/index.html'>Badge</a>
+            <a class="li-link" href='/components/Buttons/index.html'>Button</a>
+            <a class="li-link" href='/components/Card/index.html'>Cards</a>
+            <a class="li-link link-active " href='/components/InputArea/index.html'>Input</a>
+            <a class="li-link" href='/components/List/index.html'>Lists</a>
+            <button class='Float-btn Floating-btn-x' onclick="floatingOff()">X</button>
+            
+        </div>
+        <div class='component-content'>
+            <button class='Float-btn Floating-btn' onclick="floatingAction()"><></button>
+            <div>
+                <h2>Input Tag</h2>
+                <p class='content-txt'>Input area helps to save the user data,thoughts,passwords to server </p>
+            </div>  <hr><br/>
+            <div>
+                <h2>Input with labels</h2>
+                <div class='content-txt'>
+                    <label>Username :</label>
+                    <input type='text'/>
+                </div>
+                <div class='content-txt'>
+                    <label>Password :</label>
+                    <input type='password'/>
+                </div>
+            </div><hr><br/>
+            <div>
+                <h2>Form Handling</h2>
+                <form onsubmit="" >
+                <div class='content-txt'>
+                    <label>Email-Id <span class='asteric-color'>*</span>&nbsp&nbsp&nbsp&nbsp: </label>
+                    <input type='text'/>
+                </div>
+                <div class='content-txt'>
+                    <label>Password <span class='asteric-color'>*</span>:</label>
+                    <input type='password'/>
+                </div>
+                <div class='content-txt'>
+                    <label>Mobile No<span class='asteric-color'>*</span> :</label>
+                    <input type='number'/>
+                </div>
+                <div class='content-txt'>
+                  <input type='submit' value='submit' disabled>
+                </div>
+               
+            </form>
+            </div>
+            <hr><br/>
+            <div>
+                <h2>Textarea</h2>
+                <p class='content-txt'>Textarea allows to save the multiple lines of text</p>
+                <textarea class='text-area-autofocus' cols="50" autofocus placeholder="Textarea with autofocus"></textarea>
+                <textarea class='text-area-autofocus' cols="50" rows='4' placeholder="Textarea with four rows and 50 columns and resize is disabled"></textarea>
+            </div>
+        </div>
+    </header>
+    
+    <script type="text/javascript" src="/components/Header/header.js"></script>
+</body>
+</html>
