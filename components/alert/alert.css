@@ -1,11 +1,8 @@
 .alert-area{
    align-items: center;
-  
    margin-left: 206px;
-
 }
 .alert{
-
     border: 1px solid black;
     padding: 0.5rem;
     margin: 1rem;
@@ -18,17 +15,16 @@
     border-color: #f50057;
     
 }
-.Success{
+.success{
     color:green;
     border-color:green;
 
 }
-.Warning{
+.warning{
     color:#fbbf24;
     border-color: #fbbf24;
 }
 @media screen and (max-width: 600px){
-
     .alert-area{
        margin-left: 50px;
     }
