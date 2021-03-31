@@ -22,8 +22,6 @@
 }
 .card:hover > .wishlist {
     display: block;
-    /* position: absolute;
-    bottom: 6rem; */
     margin:1rem 0 0 1rem;
     background-color: inherit;
     border:1px solid black;
@@ -31,15 +29,7 @@
     width:10rem;
     align-self: center;
 }
-/* .card:hover > .Item-name {
-    display: none;
-}
-.card:hover > .Item-price{
-    display: none;
-}
-.card:hover > .Item-discount{
-    display: none;
-} */
+
 .card:hover>.Item{
     display: none;
 }
@@ -52,8 +42,7 @@
     color:var(--item-name-color);
 }
 .Item-price{
-   
-    font-size: 13px;
+    font-size: 1rem;
     font-weight: 800;
 }
 .Item-discountPercentage{
