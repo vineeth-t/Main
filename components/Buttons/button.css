@@ -6,7 +6,8 @@
     --error-hover-color:red;
         --btn-outline:black;
         --btn-outline-primary:blue;
-        --btn-outline-success:rgb(0, 236, 0)
+        --btn-outline-success:rgb(0, 236, 0);
+        --btn-background-color:pink;
 }
 .btn{
     width:10rem;
@@ -15,7 +16,7 @@
     border: 1rem;
 }
 .btn-primary{
-background-color: pink;
+background-color: var(--btn-background-color);
 }
 .btn-primary:hover{
     font-weight: 600;

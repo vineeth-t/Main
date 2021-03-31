@@ -3,7 +3,6 @@
     --box-shadow-card:rgba(0, 0, 0, 0.24);
     --discount:red;
     --badge-background: rgb(124, 219, 80);
-   
     --font-color:whitesmoke;
 }
 .component-card{
@@ -91,7 +90,7 @@
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 50%; 
-    border: 1px solid whitesmoke;
+    border: 1px solid var(--font-color);
     outline: none;
     cursor: pointer;
 }

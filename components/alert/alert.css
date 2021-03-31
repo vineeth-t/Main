@@ -1,3 +1,8 @@
+:root{
+    --error-color:#f50057;
+    --success-color:green;
+    --waring-color:#fbbf24;
+}
 .alert-area{
    align-items: center;
    margin-left: 206px;
@@ -11,16 +16,16 @@
     border-radius: 2rem;
 }
 .error{
-    color: #f50057;
-    border-color: #f50057;   
+    color: var(--error-color);
+    border-color:var(--error-color);   
 }
 .success{
-    color:green;
-    border-color:green;
+    color:var(--success-color);
+    border-color:var(--success-color);
 }
 .warning{
-    color:#fbbf24;
-    border-color: #fbbf24;
+    color:var(--waring-color);
+    border-color: var(--waring-color);
 }
 @media screen and (max-width: 600px){
     .alert-area{

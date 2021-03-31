@@ -8,6 +8,7 @@
     --onCall:red;
     --whislist:rgb(209, 86, 86);
     --notification:rgb(52, 139, 221);
+    --badge:white;
 }
 .badge-on-avtar{
     position: relative;
@@ -25,7 +26,7 @@
     width:0.75rem;
     height: 0.75rem;
     border-radius: 50%; 
-    border: 3px solid white
+    border: 3px solid var(--badge)
 }
 .badgeStatus{
     display:none;

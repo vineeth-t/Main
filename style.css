@@ -13,17 +13,14 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Roboto', sans-serif;
-   
+    font-family: 'Roboto', sans-serif;  
     font-weight: 400;
     font-size: large;
 }
 :root{
     --primary-color:black;  
     --primary-btn-color:rgb(10, 177, 10);
-
 }
-
 .center-div{
     
     max-width: 70%;
