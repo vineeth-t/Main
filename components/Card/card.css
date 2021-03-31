@@ -66,18 +66,15 @@
     top:3rem;
     left:1rem;
     background-color:var(--badge-background);
-    color:var(  --font-color);
-   
+    color:var(  --font-color); 
 }
 .badge::after{
     position: absolute;
     content:'';
     border-color: var(--badge-background) transparent var(--badge-background)
     var(--badge-background);
-   
      border-style: solid;
      border-width: 7px;
-
 }
 .x{
  display: flex;
@@ -103,9 +100,8 @@
 }
 @media screen and (max-width: 600px){
     .component-card{
-display: flex;
-flex-direction: column;
-
+        display: flex;
+        flex-direction: column;
     }
     .x{
         width:fit-content;

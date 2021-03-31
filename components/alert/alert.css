@@ -12,13 +12,11 @@
 }
 .error{
     color: #f50057;
-    border-color: #f50057;
-    
+    border-color: #f50057;   
 }
 .success{
     color:green;
     border-color:green;
-
 }
 .warning{
     color:#fbbf24;
@@ -27,6 +25,5 @@
 @media screen and (max-width: 600px){
     .alert-area{
        margin-left: 50px;
-    }
-    
+    }   
 }
