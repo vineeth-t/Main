@@ -37,6 +37,7 @@
     font-size: 0.75rem;
     font-weight:300;
 }
+
 .Item-name{
     margin: 0.5rem 0 0.5rem 0;
     color:var(--item-name-color);
@@ -86,6 +87,24 @@
 .card-image{
     width: 8opx;
 }
+.card-overlay{
+    position: relative;
+    width:fit-content;
+    box-shadow: var(--box-shadow-card) 0px 3px 8px;
+    padding: 1rem;
+    margin: 1rem;
+    font-size:1rem;
+    font-weight:400;
+}
+.wishlist-l{
+    position: absolute;
+    background-color: inherit;
+    border: none;
+    top:1.5rem;
+    right: 1.5rem;
+}
+
+
 @media screen and (max-width: 600px){
     .component-card{
         display: flex;
