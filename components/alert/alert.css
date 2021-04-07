@@ -1,5 +1,5 @@
 :root{
-    --error-color:#f50057;
+    --error-color:#d80404;
     --success-color:green;
     --waring-color:#fbbf24;
 }
@@ -7,6 +7,7 @@
    align-items: center;
    margin-left: 10rem;
 }
+
 .alert{
     border: 1px solid black;
     padding: 0.5rem;
@@ -19,6 +20,7 @@
     color: var(--error-color);
     border-color:var(--error-color);   
 }
+
 .success{
     color:var(--success-color);
     border-color:var(--success-color);
@@ -27,8 +29,36 @@
     color:var(--waring-color);
     border-color: var(--waring-color);
 }
+.alertCard{
+    border: 1px solid black;
+    padding: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+    width: 30rem;
+    height:5rem; 
+}
+.error-card{
+    background-color: var(--error-color);
+    color:white;
+    border-color:inherit;   
+}
+.success-card{
+    background-color: var(--success-color);
+    color:white;
+    border-color:inherit;     
+}
+.warning-card{
+    background-color: var(--waring-color);
+    color:white;
+    border-color:inherit;     
+}
+
 @media screen and (max-width: 600px){
     .alert-area{
-       margin-left: 2rem;
-    }   
+       margin-left: 0;
+    }  
+  
+    .alertCard{ 
+        width: 20rem;
+    }
 }
