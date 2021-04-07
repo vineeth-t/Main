@@ -20,3 +20,6 @@ function floatingAction(){
     document.getElementById('menu-items').style.display='none';
     
    }
+   function closeToast(){
+    document.getElementById('toast-component').style.display='none';
+   }

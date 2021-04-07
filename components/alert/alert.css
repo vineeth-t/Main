@@ -52,7 +52,6 @@
     color:white;
     border-color:inherit;     
 }
-
 @media screen and (max-width: 600px){
     .alert-area{
        margin-left: 0;
