@@ -49,7 +49,7 @@
 .Item-discountPercentage{
     color :var( --discount);
 }
-.badge{
+.badgeOnCard{
     font-size: 0.75rem;
     position: absolute;
     top:3rem;
@@ -57,7 +57,7 @@
     background-color:var(--badge-background);
     color:var(  --font-color); 
 }
-.badge::after{
+.badgeOnCard::after{
     position: absolute;
     content:'';
     border-color: var(--badge-background) transparent var(--badge-background)
