@@ -23,6 +23,7 @@
     grid-area:'abc';
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     padding-left: 10rem;
     cursor: pointer;
     border-right:1px solid var(--menu-list);
@@ -66,7 +67,7 @@ top: 0;
 left: 0;
 right: 0;
 bottom: 0;
-text-align: center;
+align-items: stretch;
 background-color:var( --background-modal-color);
 z-index: 2;
  padding-left: 0px;
