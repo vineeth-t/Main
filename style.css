@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-@import "/components/Header/header.css" ;
+@import "/components/Header/header.css";
 @import "/components/Alert/alert.css";
+@import "/components/Avatar/avatar.css";
 @import "/components/Badge/badge.css";
 @import "/components/Buttons/button.css";
+@import "/components/InputArea/inputArea.css";
+@import "/components/List/list.css";
+@import "/components/Toast/toast.css";
 @import "/components/Card/card.css";
 @import "/components/sideNav/sideNav.css";
 @import"/components/List/index.html";
