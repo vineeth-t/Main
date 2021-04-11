@@ -5,14 +5,14 @@
     --primary-btn-color:rgb(10, 177, 10);
     --background-modal-color:white;
     --link-active:rgb(0, 236, 0);
-    --menu-list:rgb(196, 189, 189);
+    --menu-list:rgb(194, 186, 186);
 }
 .header{
     font-weight: 400;
     font-size:1rem;
     display: grid;
     grid-template-areas: "abc xyz";
-    grid-template-columns: 0.3fr 1fr;
+    grid-template-columns: 0.4fr 1fr;
      grid-column-gap: 4rem;    
 }
 .heading-color{
@@ -73,6 +73,13 @@ z-index: 2;
  padding-left: 0px;
   cursor: pointer;
 }
+
+    .code{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
+      }
 
 .header{
     display :flex;
