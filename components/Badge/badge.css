@@ -17,12 +17,6 @@
     position: relative;
     margin: 1rem;
 }
-
-/* .avtar{
-    cursor: pointer;
-    border-radius: 50%; 
-  
-} */
 .badge{
     position: absolute;
     top:4.5rem;
