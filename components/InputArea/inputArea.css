@@ -7,6 +7,10 @@
 .asteric-color{
     color:red;
 }
+.btn{
+    width:5rem;
+   margin-left: 0;
+}
 @media screen and (max-width: 600px){
     .text-area-autofocus{
         margin:0 0 1rem 0;
