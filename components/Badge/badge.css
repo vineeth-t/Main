@@ -1,3 +1,4 @@
+
 .bdg-av{
     display:flex;
     flex-direction: row;
@@ -9,21 +10,23 @@
     --whislist:rgb(209, 86, 86);
     --notification:rgb(52, 139, 221);
     --badge:white;
+    --text-background:black;
+    --font-color:rgb(185, 184, 184);
 }
 .badge-on-avtar{
     position: relative;
-    
     margin: 1rem;
 }
-.avtar{
+
+/* .avtar{
     cursor: pointer;
     border-radius: 50%; 
-    width: 75px;
-}
+  
+} */
 .badge{
     position: absolute;
-    top:3.5rem;
-    left:3.5rem;
+    top:4.5rem;
+    left:4.5rem;
     width:1rem;
     height: 1rem;
     border-radius: 50%; 
@@ -42,9 +45,14 @@
     background-color: var(--onCall)
 }
 .badge-on-avtar:hover > .badgeStatus {
-  display: block;
-  text-align: center;
-  overflow: hidden;
+    position: absolute;
+    top:6rem;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    border:1px solid var(--badge);
+    background-color:var(--text-background);
+    color:var(--font-color);
 }
 .badge-on-icon{
     position:relative;
