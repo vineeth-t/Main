@@ -109,6 +109,16 @@
     .component-card{
         display: flex;
         flex-direction: column;
+       
+    }
+    .wishlist{
+        display: inline-block;
+        margin:1rem 1rem 0 0;
+        background-color: inherit;
+        border:1px solid black;
+        width:fit-content;
+        width:5rem;
+        align-self: center;
     }
     .x{
         width:fit-content;
