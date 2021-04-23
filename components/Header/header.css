@@ -29,7 +29,7 @@ body{
 .list-head{
     list-style: none;
 }
-.li-link{
+.link{
     text-align: center;
     padding-right: 1rem;
     text-decoration: none;

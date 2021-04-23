@@ -72,9 +72,8 @@ background-color:var( --background-modal-color);
 z-index: 2;
  padding-left: 0px;
   cursor: pointer;
-}
-
-    .code{
+} 
+.code{
         display: flex;
         align-items: center;
         justify-content: center;
