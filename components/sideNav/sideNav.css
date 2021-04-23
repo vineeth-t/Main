@@ -40,10 +40,8 @@
     }
     
 .component-content{
-
     grid-area:'xyz';
-    width:80%;
-  
+    width:80%; 
 }
 .content-txt{
     font-weight: 350;
