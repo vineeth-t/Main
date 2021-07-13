@@ -103,8 +103,37 @@
     top:1.5rem;
     right: 1.5rem;
 }
-
-
+.card-with-icon{
+    margin:1rem;
+    width:50%;
+    padding:1rem;
+    
+ 
+}
+.list-group{
+    list-style-type: none;
+}
+.list-item{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgb(224, 221, 221);
+    padding:1rem;
+    margin:1rem;
+    border-radius: 0.25rem;
+    border:1px solid black;
+}
+.list-desc{
+    display:flex;
+    flex-direction: column;
+}
+.list-amt{
+    display:flex;
+    
+     margin-right:1rem;
+     justify-content: center;
+     align-items: center;
+}
 @media screen and (max-width: 600px){
     .component-card{
         display: flex;
