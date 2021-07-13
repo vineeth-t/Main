@@ -152,4 +152,7 @@
     .x{
         width:fit-content;
     }
+    .card-with-icon{
+        width:auto;
+    }
 }
