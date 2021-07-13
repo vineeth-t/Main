@@ -19,11 +19,11 @@ body{
 } 
 .list-parent-left{
     padding: 2rem;
-    padding-left: 10rem;
+    padding-left: 3rem;
 }
 .list-parent-right{
     padding: 2rem;
-    padding-right: 10rem;
+    padding-right: 3rem;
     overflow: hidden;
 }
 .list-head{
