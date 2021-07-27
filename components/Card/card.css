@@ -1,0 +1,158 @@
+:root{
+    --item-name-color:#535766;
+    --box-shadow-card:rgba(0, 0, 0, 0.24);
+    --discount:red;
+    --badge-background: rgb(124, 219, 80);
+    --font-color:whitesmoke;
+}
+.component-card{
+    display: flex;
+}
+.card{
+    position: relative;
+    width:fit-content;
+    box-shadow: var(--box-shadow-card) 0px 3px 8px;
+    padding: 1rem;
+    margin: 1rem;
+    font-size:1rem;
+    font-weight:400;
+}
+.wishlist{
+    display: none;
+}
+.card:hover > .wishlist {
+    display: block;
+    margin:1rem 0 0 1rem;
+    background-color: inherit;
+    border:1px solid black;
+    width:fit-content;
+    width:10rem;
+    align-self: center;
+}
+
+.card:hover>.Item{
+    display: none;
+}
+.Item{
+    font-size: 0.75rem;
+    font-weight:300;
+}
+
+.Item-name{
+    margin: 0.5rem 0 0.5rem 0;
+    color:var(--item-name-color);
+}
+.Item-price{
+    font-size: 1rem;
+    font-weight: 800;
+}
+.Item-discountPercentage{
+    color :var( --discount);
+}
+.badgeOnCard{
+    font-size: 0.75rem;
+    position: absolute;
+    top:3rem;
+    left:1rem;
+    background-color:var(--badge-background);
+    color:var(  --font-color); 
+}
+.badgeOnCard::after{
+    position: absolute;
+    content:'';
+    border-color: var(--badge-background) transparent var(--badge-background)
+    var(--badge-background);
+     border-style: solid;
+     border-width: 7px;
+}
+.x{
+ display: flex;
+ box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    align-items: space-evenly;
+}
+.card-btn{
+    margin: 0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%; 
+    border: 1px solid var(--font-color);
+    outline: none;
+    cursor: pointer;
+}
+.card-image{
+    width: 8opx;
+}
+.card-overlay{
+    position: relative;
+    width:fit-content;
+    box-shadow: var(--box-shadow-card) 0px 3px 8px;
+    padding: 1rem;
+    margin: 1rem;
+    font-size:1rem;
+    font-weight:400;
+}
+.wishlist-l{
+    position: absolute;
+    background-color: inherit;
+    border: none;
+    top:1.5rem;
+    right: 1.5rem;
+}
+.card-with-icon{
+    margin:1rem;
+    width:50%;
+    padding:1rem;
+    
+ 
+}
+.list-group{
+    list-style-type: none;
+}
+.list-item{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgb(224, 221, 221);
+    padding:1rem;
+    margin:1rem;
+    border-radius: 0.25rem;
+    border:1px solid black;
+}
+.list-desc{
+    display:flex;
+    flex-direction: column;
+}
+.list-amt{
+    display:flex;
+    
+     margin-right:1rem;
+     justify-content: center;
+     align-items: center;
+}
+@media screen and (max-width: 600px){
+    .component-card{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .wishlist{
+        display: inline-block;
+        margin:1rem 1rem 0 0;
+        background-color: inherit;
+        border:1px solid black;
+        width:fit-content;
+        width:5rem;
+        align-self: center;
+    }
+    .x{
+        width:fit-content;
+    }
+    .card-with-icon{
+        width:auto;
+    }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InputArea</title>
+    <link rel="stylesheet" href="/components/sideNav/sideNav.css">
+    <link rel="icon" type="image/png" href="https://monkey-group.be/wp-content/uploads/2020/11/Favicon-2.png"/>
+    <link rel="stylesheet" href="/components/Buttons/button.css">
+    <link rel="stylesheet" href="inputArea.css">
+</head>
+<body>
+    <nav class='navigation-bar' >
+        <div class='list-parent-left' id='symbol'>
+            <a class='link'href='../../index.html'> <h3>Chikku<span class='heading-color'>Ui</span></h3> </a>  
+        </div>
+        <div class='list-parent-right' id='modal'>
+            <a  href="javascript:void(0);" class="li-icon" onclick="modelFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+              <a class='link' href='../../index.html'> Home</a>
+              <a class='link' href='components/alert/index.html'>Documentation</a>
+              <a class='link' target='_blank' href='https://github.com/vineeth-t/Main/tree/Devlopment'>Github</a>
+             
+        </div>
+        </nav>
+    <header class='header' >
+        <div class='menu-list' id='menu-items'>
+            <a class="link component" href='/components/Alert/index.html'>Alert</a>
+            <a class="link component" href='/components/Avatar/index.html'>Avatar</a>
+            <a class="link component" href='/components/Badge/index.html'>Badge</a>
+            <a class="link component" href='/components/Buttons/index.html'>Button</a>
+            <a class="link component" href='/components/Card/index.html'>Cards</a>
+            <a class="link component link-active " href='/components/InputArea/index.html'>Input</a>
+            <a class="link component" href='/components/List/index.html'>Lists</a>
+            <a class="link component" href='/components/Toast/index.html'>Toast</a>
+            <button class='Float-btn Floating-btn-x' onclick="floatingOff()">X</button>
+            
+        </div>
+        <div class='component-content'>
+            <button class='Float-btn Floating-btn' onclick="floatingAction()"><></button>
+            <div>
+                <h2>Input Tag</h2>
+                <p class='content-txt'>Input area helps to save the user data,thoughts,passwords to server </p>
+            </div>  <hr><br/>
+            <div>
+                <h2>Input with labels</h2>
+                <div class='content-txt'>
+                    <label>Username :</label>
+                    <input type='text'/>
+                </div>
+                <div class='content-txt'>
+                    <label>Password :</label>
+                    <input type='password'/>
+                </div>
+            </div><hr><br/>
+            <div>
+                <h2>Form Handling</h2>
+                <form onsubmit="" >
+                <div class='content-txt'>
+                    <label>Email-Id <span class='asteric-color'>*</span>&nbsp&nbsp&nbsp&nbsp: </label>
+                    <input type='text'/>
+                </div>
+                <div class='content-txt'>
+                    <label>Password <span class='asteric-color'>*</span>:</label>
+                    <input type='password'/>
+                </div>
+                <div class='content-txt'>
+                    <label>Mobile No<span class='asteric-color'>*</span> :</label>
+                    <input type='number'/>
+                </div>
+                <div class='content-txt'>
+                  <button type='submit' class='btn btn-success' disabled>submit</button>
+                </div>
+               
+            </form>
+            </div>
+            <hr><br/>
+            <div>
+                <h2>Textarea</h2>
+                <p class='content-txt'>Textarea allows to save the multiple lines of text</p>
+                <textarea class='text-area-autofocus' cols="50" autofocus placeholder="Textarea with autofocus"></textarea>
+                <textarea class='text-area-autofocus' cols="50" rows='4' placeholder="Textarea with four rows and 50 columns and resize is disabled"></textarea>
+            </div><hr><br/>
+            <div>
+                        <h2>Expense Form </h2>
+                    <div class='input-card'>
+                        
+                        <div class='input-feild'>
+                            <input style='padding:0.5rem'type='number' placeholder='Amount spend'><label class='card-symbol'>₹</label>
+                        </div>
+                        <div class='input-feild'>
+                            <label class='card-symbol'>@</label><input style='padding:0.5rem' type='text' placeholder='Spend on'>
+                        </div>
+                        <button class='btn '>Add</button>
+            </div>
+            </div>
+            
+        </div>
+        
+    </header>
+    
+    <script type="text/javascript" src="/components/Header/header.js"></script>
+</body>
+</html>

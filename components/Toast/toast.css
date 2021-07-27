@@ -1,0 +1,35 @@
+:root{
+    --box-color:rgb(10, 177, 10);
+    --box-color2:rgb(104, 104, 226);
+}
+.toast-area{
+    display: flex;
+    
+}
+.toast{
+    border-radius: 0.1rem;
+    width:15rem;
+    padding: 0.45rem;
+    height:2rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin:1rem;
+}
+.toast-sucess{
+    box-shadow: var(--box-color) 0px 0px 0px 2px, var(--box-color) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    
+}
+.toast-notify{
+    box-shadow: var(--box-color2) 0px 30px 60px -12px inset, var(--box-color2) 0px 18px 36px -18px inset;
+}
+.toast-close{
+    position:absolute;
+    right: 0;
+    top:0;
+}
+@media screen and (max-width: 600px){
+    .toast-area{
+        flex-direction: column;
+    }  
+}

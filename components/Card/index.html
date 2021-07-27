@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="/components/sideNav/sideNav.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="icon" type="image/png" href="https://monkey-group.be/wp-content/uploads/2020/11/Favicon-2.png"/>
+</head>
+<body>
+    <nav class='navigation-bar' >
+        <div class='list-parent-left' id='symbol'>
+            <a class='link'href='../../index.html'> <h3>Chikku<span class='heading-color'>Ui</span></h3> </a>  
+        </div>
+        <div class='list-parent-right' id='modal'>
+            <a  href="javascript:void(0);" class="li-icon" onclick="modelFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+              <a class='link' href='../../index.html'> Home</a>
+              <a class='link' href='components/alert/index.html'>Documentation</a>
+              <a class='link' target='_blank' href='https://github.com/vineeth-t/Main/tree/Devlopment'>Github</a>
+
+        </div>
+        </nav>
+    <header class='header' >
+        <div class='menu-list' id='menu-items'>
+            <a class="link component" href='/components/Alert/index.html'>Alert</a>
+            <a class="link component" href='/components/Avatar/index.html'>Avatar</a>
+            <a class="link component" href='/components//Badge/index.html'>Badge</a>
+            <a class="link component" href='/components/Buttons/index.html'>Button</a>
+            <a class="link component link-active" href='/components/Card/index.html'>Cards</a>
+            <a class="link component" href='/components/InputArea/index.html'>Input</a>    
+            <a class="link component" href='/components/List/index.html'>Lists</a>
+            <a class="link component" href='/components/Toast/index.html'>Toast</a>
+            <button class='Float-btn Floating-btn-x' onclick="floatingOff()">X</button>
+        </div>
+        <div class='component-content'>
+            <button class='Float-btn Floating-btn' onclick="floatingAction()"><></button>
+            <h2>Card</h2>
+            <p class='content-txt'>Css cards are very helpful in building the Ecommerce websites,Profile pages.They draw user's attention easily </p>
+            <hr><br/>
+            <h2>Card with Badge</h2>
+           <div class='component-card'>
+            <div class='card'>
+                <img className="Item-image"
+          src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2242503/2018/7/30/00fa54ff-cc59-4d9e-b618-34766946f2c81532942294504-Tokyo-Talkies-Women-Navy-Printed-Shirt-Dress-5291532942294350-1.jpg"
+          alt="cardImage"/>  
+                
+                <h3>TokyoTalkies</h3>
+                <h4 class='Item Item-name'>Navy Polka Dot Belted Shirt Dress</h4>
+                <span class="Item Item-price"> Rs.799 </span>
+                <s class="Item Item-discount">Rs.1849</s>
+                <span class="Item Item-discountPercentage">(50% off) </span>
+                <div class='badgeOnCard'>NEW</div><br/>
+                <button class='wishlist'>Wishlist</button>
+              
+            </div>
+            <div class='card'>
+                <img className="Item-image"
+          src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/4318138/2018/5/4/11525433792765-HERENOW-Men-Black-Printed-Round-Neck-T-shirt-2881525433792598-1.jpg"
+          alt="cardImage"/>  
+                <h3>HERE&NOW </h3>
+                <h4 class='Item Item-name'> Men Black Printed Round Neck T-shirt</h4>
+                <span class="Item Item-price"> Rs.799 </span>
+                <s class="Item Item-discount">Rs.1849</s>
+                <span class="Item Item-discountPercentage">(50% off) </span>
+                <div class='badgeOnCard'>POPULAR</div><br/>
+                <button class='wishlist'>Wishlist</button>
+               
+            </div>
+        </div> <hr><br/> 
+        <h2>Card with Increment and Decrement buttons</h2>
+            <div>
+                <div class='card x'>
+                    <img className="card-image"
+              src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/4318138/2018/5/4/11525433792765-HERENOW-Men-Black-Printed-Round-Neck-T-shirt-2881525433792598-1.jpg"
+              alt="cardImage"/>  
+              <div class='card-content'>
+                  <div > 
+                    <button class='card-btn'>-</button>
+                    <span>2</span>
+                    <button class='card-btn'>+</button></div>
+                  
+                    <h3>HERE&NOW </h3>
+                    <h4 class='Item Item-name'> Men Black Printed Round Neck T-shirt</h4>
+                    <div>
+                    <span class="Item Item-price"> Rs.799 </span>
+                    <s class="Item Item-discount">Rs.1849</s>
+                    <span class="Item Item-discountPercentage">(50% off) </span>
+                    <div class='badge'>TREND</div>
+                </div>
+                    </div>
+                </div>
+            </div>
+            <div><hr/><br>
+                <h2>Card Overlay </h2>
+            <div class='card-overlay'>
+              <img style="width: 251px;
+                height: 233px;"
+          src="https://th.bing.com/th/id/OIP.gyYYAuLvh2sA0pkqcmb7jwHaFj?pid=ImgDet&rs=1"
+          alt="cardImage"/> 
+                <h3>Strawberry</h3>
+                <h4 class='Item Item-name'>Imported from Kashmir valley </h4>
+                <span class="Item Item-price"> Rs.799 </span>
+                <s class="Item Item-discount">Rs.1849</s>
+                <span class="Item Item-discountPercentage">(50% off) </span>     
+                <button class='wishlist-l'><svg width="1.5em" height="1.5em" viewBox="0 0 24 24"><path d="M12.1 18.55l-.1.1l-.11-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04 1 3.57 2.36h1.86C13.46 6 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05M16.5 3c-1.74 0-3.41.81-4.5 2.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5c0 3.77 3.4 6.86 8.55 11.53L12 21.35l1.45-1.32C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3z" fill="currentColor"></path></svg></button>
+            </div>
+        </div><hr/><br>
+        <h2>Card with Icon's </h2>
+        <div class='card-with-icon'>
+            <ul class='list-group'>
+                <li class='list-item'>
+                    <div class='list-desc'>
+                        <span>T shirt</span>
+                        <small>March 11,2019</small>
+                    </div>
+                    <div class='list-amt'>
+                        <span style='margin-right:1rem'>500</span>
+                        <button style='color:red;border:1px solid red;padding:0.5rem'>
+                            <svg width="0.88em" height="1em" viewBox="0 0 448 512"><path d="M32 464a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128H32zm272-256a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zM432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z" fill="currentColor"></path></svg>
+                        </button>
+                    </div>
+                </li>
+                <li class='list-item'>
+                    <div class='list-desc'>
+                        <span>Vad Pav</span>
+                        <small>August 24,2019</small>
+                    </div>
+                    <div class='list-amt'>
+                        <span style='margin-right:1rem'>1500</span>
+                        <button style='color:red;border:1px solid red;padding:0.5rem'>
+                            <svg width="0.88em" height="1em" viewBox="0 0 448 512"><path d="M32 464a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128H32zm272-256a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zM432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z" fill="currentColor"></path></svg>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        </div>
+    </header>
+    
+    <script type="text/javascript" src="/components/Header/header.js"></script>
+</body>
+</html>

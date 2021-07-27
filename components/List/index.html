@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/components/sideNav/sideNav.css">
+    <link rel="icon" type="image/png" href="https://monkey-group.be/wp-content/uploads/2020/11/Favicon-2.png"/>
+    <link rel="stylesheet" href="list.css">
+    <title>List</title>
+</head>
+<body>
+    <nav class='navigation-bar' >
+        <div class='list-parent-left' id='symbol'>
+            <a class='link'href='../../index.html'> <h3>Chikku<span class='heading-color'>Ui</span></h3> </a>  
+        </div>
+        <div class='list-parent-right' id='modal'>
+            <a  href="javascript:void(0);" class="li-icon" onclick="modelFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+              <a class='link' href='../../index.html'> Home</a>
+              <a class='link' href='index.html'>Documentation</a>
+              <a class='link' target='_blank' href='https://github.com/vineeth-t/Main/tree/Devlopment'>Github</a>
+         
+        </div>
+        </nav>
+        <header class='header' >
+            <div class='menu-list' id='menu-items'>
+                <a class="link component" href='/components/Alert/index.html'>Alert</a>
+                <a class="link component" href='/components/Avatar/index.html'>Avatar</a>
+                <a class="link component" href='/components//Badge/index.html'>Badge</a>
+                <a class="link component" href='/components/Buttons/index.html'>Button</a>
+                <a class="link component" href='/components/Card/index.html'>Cards</a>
+                <a class="link component" href='/components/InputArea/index.html'>Input</a>
+                <a class="link component link-active" href='/components/List/index.html'>Lists</a>
+                <a class="link component" href='/components/Toast/index.html'>Toast</a>
+                <button class='Float-btn Floating-btn-x' onclick="floatingOff()">X</button> 
+            </div>
+            <div class='component-content'>
+                <button class='Float-btn Floating-btn' onclick="floatingAction()"><></button>
+                <div>
+                    <h3>List</h3>
+                    <p class='content-txt'>lists are used to display items in spaced & stacked manner </p>
+                    <hr><br/>
+                </div>
+                <div>
+                    <h3>Spaced list</h3>
+                    <p class='content-txt'>Spaced lists are used in navigation bar for better appearance and accessibilty </p>
+                    <ul class='list'>
+                        <li >Home </li>
+                        <li>Profile</li>
+                        <li>About</li>
+                        <li>Logout</li>
+                    </ul>
+                </div> <hr><br/>
+                <div>
+                    <h3>Stacked list</h3>
+                    <p class='content-txt'>Stacked lists are used in notification panel and also in displaying left/right navigation bar </p>
+                    <ul class='list stacked'>
+                        <li >Home </li>
+                        <li>Profile</li>
+                        <li>About</li>
+                        <li>Logout</li>
+                    </ul>
+                </div>
+    </header>
+    <script type="text/javascript" src="/components/Header/header.js"></script>
+</body>
+</html>

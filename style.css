@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import "/components/Header/header.css";
+@import "/components/Alert/alert.css";
+@import "/components/Avatar/avatar.css";
+@import "/components/Badge/badge.css";
+@import "/components/Buttons/button.css";
+@import "/components/InputArea/inputArea.css";
+@import "/components/List/list.css";
+@import "/components/Toast/toast.css";
+@import "/components/Card/card.css";
+@import "/components/sideNav/sideNav.css";
+@import"/components/List/index.html";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 400;
+    font-size: large;
+}
+:root{
+    --primary-color:black;  
+    --primary-btn-color:rgb(10, 177, 10);
+}
+.center-div{
+    
+    max-width: 70%;
+    margin: 2rem 15% 2rem 15%;
+    font-weight: 300;
+}
+.btn-link{
+    border-radius: 2rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    background-color:var(--primary-btn-color) ;
+    color:var( --primary-color)
+}
+@media screen and (max-width: 600px){
+    body{
+        font-weight: 600;
+        font-size: large;
+    }
+    .header{
+        display: none;
+    }
+}
+
+
