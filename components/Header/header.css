@@ -38,7 +38,7 @@ body{
  .li-icon{
     display:none;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1024px){
     body{
         font-weight: 600;
         font-size: large;

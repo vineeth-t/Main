@@ -36,7 +36,7 @@
     border:1px solid white;
     
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1024px){
     .text-area-autofocus{
         margin:0 0 1rem 0;
         font-size: 0.8rem;
